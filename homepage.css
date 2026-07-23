@@ -1,0 +1,92 @@
+/*HOME PAGE CSS*/
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;  
+}
+.homepage-layer{
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+    background-image: url('https://unsplash.com');
+    background-size: cover;
+    background-position: center;
+}
+/*To darken background and improve text legibility*/
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(139,94,69,0.45);/*Warm brownsih-tinted overlay*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+
+}
+.heading{
+    font-size: 2.2rem;
+    font-weight: 500;
+    margin-bottom: 8px;
+    letter-spacing: 0.5px;
+    text-shadow: 1px 1px 4px rgba(0,0, 0, 0.6);
+}
+.text1{
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-bottom: 4px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+}
+.text2{
+    font-size: 0.95rem;
+    font-style: italic;
+    margin-bottom: 40px;
+    opacity: 0.9;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 280%;
+}
+.buttonportal{
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #c08253;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color0.2s ease, transform 0.1 ease;
+    box-shadow: 0 4px 6px rgba(0,0, 0, 0.15);
+}
+.buttonportal:hover{
+    background-color: #a66f43;
+}
+.buttonportal:active{
+    transform: scale(0.98);
+}

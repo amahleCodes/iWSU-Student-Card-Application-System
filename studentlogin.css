@@ -1,0 +1,92 @@
+/*STUDENT LOG IN CSS*/
+body{
+    margin: 0;
+    padding: 40px;
+    background-color: #ffffff;
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+}
+.student-login{
+    background-color: #dbe7e9;
+    width: 400px;
+    padding: 30px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    position: relative;
+}
+.back-arrow{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 32px;
+    height: 32px;
+    border: 2px solid #333;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+}
+.studentlogin-heading{
+    text-align: center;
+    color:#a05a42 ;
+    font-family: 'Georgia', serif;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.studentlogin-instruction{
+    color: #333333;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.studentlogin-form{
+    margin-bottom: 15px;
+}
+label{
+    display: block;
+    font-size: 11px;
+    font-weight: bold;
+    color: #444444;
+    margin-bottom: 5px;
+}
+/*ROUND WHITE INPUT BARS*/
+input[type="email"],
+input[type="password"]{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    outline: none;
+}
+.studentlogin-button{
+    width: 100%;
+    padding: 10px;
+    background-color: #b35924;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 15px;
+    letter-spacing: 1px;
+}
+.studentlogin-signup{
+    color: #a05a42;
+    font-size: 11px;
+    text-decoration: underline;
+    text-align: center;
+}
+.text{
+    color: #333333;
+    font-size: 13px;
+    text-align: center;
+}
